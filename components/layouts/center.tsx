@@ -1,4 +1,5 @@
 import React from "react";
+import AdScript from "@/components/ads";
 
 const Center = ({ children }: { children: React.ReactNode }) => {
     return (
