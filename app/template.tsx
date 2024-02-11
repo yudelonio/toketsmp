@@ -1,5 +1,6 @@
 import Footer from "@/components/layouts/footer";
 import Navbar from "@/components/layouts/navbar";
+import AdScript from "@/components/ads";
 import { ReactNode } from "react";
 import { Toaster } from "@/components/ui/sonner";
 
