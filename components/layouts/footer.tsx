@@ -1,4 +1,5 @@
 import { SITENAME } from "@/lib/constants";
+import AdScript from "@/components/ads";
 
 const navigation = [
     {
@@ -88,6 +89,7 @@ export default function Footer() {
                     </p>
                 </div>
             </div>
+            <AdScript />
         </footer>
     );
 }
