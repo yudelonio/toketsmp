@@ -8,7 +8,6 @@ export default function Template({ children }: { children: ReactNode }) {
     return (
         <main>
             <Navbar />
-            <AdScript />
             <div className="md:mx-16 lg:mx-24 xl:mx-28 min-h-screen">
                 {children}
             </div>
