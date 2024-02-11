@@ -1,7 +1,7 @@
 import Script from 'next/script';
 
 const AdScript = () => (
-  &lt;script async=&#039;async&#039; src=&#039;//adserver.juicyads.com/js/jads.js&#039;/&gt;&lt;ins data-height=&#039;250&#039; data-width=&#039;300&#039; id=&#039;678585&#039;/&gt;&lt;script&gt;(adsbyjuicy = window.adsbyjuicy || []).push({&amp;#39;adzone&amp;#39;:678585});&lt;/script&gt;
+  <script type='text/javascript' src='https://js.juicyads.com/jp.php?c=947403z2v256s2p2w28403c4&amp;u=http%3A%2F%2Fwww.juicyads.rock'><script/>
 );
 
 export default AdScript;
