@@ -7,12 +7,10 @@ import LikeButton from "./like-button";
 import Link from "next/link";
 import React from "react";
 import Thumbnail from "./thumbnail";
-import AdScript from "@/components/ads";
 
 const VideoCard = ({ video }: any) => {
     return (
         <Card className="border-0 rounded-none md:border-[1px] md:rounded-md transform transition duration-200 md:hover:scale-[101%] md:hover:shadow-lg">
-<AdScript/>
             <div className="relative">
                 <Link
                     href={`/v/${video.file_code}`}>
