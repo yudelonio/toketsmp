@@ -13,9 +13,7 @@ const VideoCard = ({ video }: any) => {
         <Card className="border-0 rounded-none md:border-[1px] md:rounded-md transform transition duration-200 md:hover:scale-[101%] md:hover:shadow-lg">
             <div className="relative">
                 <Link
-                    href={`/v/${video.file_code}`}
-                    title={video.title}
-                    >
+                    href={`/v/${video.file_code}`}>
                 <Thumbnail
                     single_img={video.single_img}
                     splash_img={video.splash_img}
