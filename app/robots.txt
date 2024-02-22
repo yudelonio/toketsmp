@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-sitemap: https://bokepabg.pages.dev/sitemap.xml
+sitemap: https://bociljilbab.pages.dev/sitemap.xml
